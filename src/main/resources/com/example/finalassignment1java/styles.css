@@ -1,0 +1,79 @@
+
+/* Label */
+.label {
+    -fx-font-family: "Bai Jamjuree Medium";
+}
+
+/* Button */
+.button {
+    -fx-font-size: 14px;
+    -fx-text-fill: #000000;
+    -fx-background-radius: 20px;
+}
+
+.button:hover {
+    -fx-background-color: #ffdb4d; /* Lighter Yellow on Hover */
+}
+
+/* AnchorPane */
+.anchor-pane {
+    -fx-background-radius: 20px;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 1px;
+    -fx-border-radius: 20px;
+}
+
+/* Scene 1 styles */
+.scene1 {
+    -fx-background-color: #f0f0f0; /* Light Grey */
+}
+
+.scene1 .button {
+    -fx-background-color: #B7E2F0; /* Light Blue */
+}
+
+.scene1 .table-view {
+    -fx-table-cell-border-color: transparent;
+}
+
+.scene1 .table-view .column-header-background {
+    -fx-background-color: #B7E2F0; /* Light Blue */
+}
+
+.scene1 .table-column {
+    -fx-alignment: CENTER;
+    -fx-text-fill: #333333;
+}
+
+.scene1 .table-row-cell:odd {
+    -fx-background-color: #f0f0f0; /* Light Grey */
+}
+
+.scene1 .table-row-cell:even {
+    -fx-background-color: #e0e0e0; /* Darker Grey */
+}
+
+/* Scene 2 styles */
+.scene2 {
+    -fx-background-color: #f4f4f4; /* Lighter Grey */
+}
+
+.scene2 .button {
+    -fx-background-color: #ffcc00; /* Yellow */
+}
+
+.scene2 .chart-bar {
+    -fx-bar-fill: #0099ff; /* Blue */
+}
+
+.scene2 .chart-bar:hover {
+    -fx-bar-fill: #0077cc; /* Darker Blue on Hover */
+}
+
+.scene2 .chart-category-axis .tick-label {
+    -fx-fill: #666666; /* Dark Grey */
+}
+
+.scene2 .chart-number-axis .tick-label {
+    -fx-fill: #666666; /* Dark Grey */
+}
